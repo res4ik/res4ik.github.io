@@ -1,0 +1,44 @@
+    .zagolovok{
+    text-align: center;
+    color: #7C3668;
+    }
+    body{
+        background-color:#BDCCFF;
+    }
+    .main{
+        background-color:white;
+        width: 1050px;
+        margin: 40px auto;
+        padding: 20px;
+        border-radius: 16px;
+        border: 5px solid black;
+    }
+    p{
+        font-family: 'Caveat', cursive;
+font-family: 'Neucha', cursive;
+        margin-top: 0;
+    }
+    .text_right{
+        text-align: right;
+        font-size: 25px;
+        font-family: 'Caveat', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+    }
+    a{
+        padding: 4px 20px;
+        border-radius: 16px;
+        text-decoration: none;
+        color: white;
+        background-color: #7C3668;
+        display: block;
+        margin: auto;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+    .ananas {
+        text-align: center;
+    }
