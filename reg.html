@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" >Главная страница</a>
+            <a href="galary.html" >Галерея</a>
+            <a href="reg.html" class="active">Регистрация</a>
+        </nav>
+        <div class="header_img_container">
+          <a href="https://www.youtube.com/watch?v=rdKFcoRB6pQ&ab_channel=PatauDodik" target="_blank"><img  src="img/icons8-сломанный-робот-64.png" alt=""></a>
+        </div>
+    </header>
+    <script>
+        document.querySelector('#scrollTop').addEventListener('click', ()=> {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        })
+    </script>
+    <form action="https://formspree.io/f/xbjbjglg"
+        method="POST"
+        class="form">
+        <input type="email" name="email" placeholder="Введите вашу почту">
+        <textarea name="message" id="" cols="30" rows="3" placeholder="Введите сообщение по обратной связи"></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+    <footer>
+        <div class="footer-container">
+            <div class="icons-container"></div>
+            <p>Copyright &copy; 2022 Кругляк Тимофей</p>
+            <a href=""><img src="icons8-vk-в-круге-48.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>
