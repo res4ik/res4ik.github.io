@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="undo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <script>
+        AOS.init();
+      </script>
+    <header>
+        <nav>
+            <a href="index.html" class="active">Главная страница</a>
+            <a href="galary.html" >Галерея</a>
+            <a href="reg.html" >Регистрация</a>
+        </nav>
+        <div class="header_img_container">
+          <a href="https://www.youtube.com/watch?v=rdKFcoRB6pQ&ab_channel=PatauDodik" target="_blank"><img  src="img/icons8-сломанный-робот-64.png" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-left">
+                <h1>Если вы тоже сталкивались с тем что не во что поиграть<br>тогда этот сайт вам наверняка поможет</h1>
+            
+            </div>
+            <div class="hero-right">
+                <img src="img/машина.jfif" alt="">
+            </div>
+        </section>
+        <section class="quote">
+            <h2>Большая сила воли требуется, чтобы пройти до конца тридцатиуровневую игрушку. Хотя ещё большая сила воли требуется, чтобы потом её удалить. Но и этой силы воли не достаточно, чтобы не установить себе новую версию.</h2>
+        </section>
+            <video src="Вот это спорт! КИБЕРСПОРТ.mp4" type="" autoplay muted loop="loop"></video>
+        </section>
+        <div class="deskription">
+            <h2>Киберспорт</h2>
+            <h3>Ки́берспо́рт — командное или индивидуальное соревнование на основе компьютерных видеоигр. В России признан официальным видом спорта.</h3>
+            <p>Все киберспортивные дисциплины делятся на несколько основных классов, различаемых свойствами пространств, моделей, игровой задачей и развиваемыми игровыми навыками киберспортсменов: шутеры от первого лица, стратегии в реальном времени, спортивные симуляторы, автосимуляторы, авиасимуляторы, файтинги, командные ролевые игры с элементами тактико-стратегической игры и т. д.</p>
+        <hr>
+            <h2>Подборка игр</h2>
+        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="800"    class="feature">
+            <div class="feature_image margin">
+                <img src="img/паладинс.jpg" alt="">
+            </div>
+            <div class="feature_text margin">
+                <p>Paladins: Чемпионы королевства - это free-to-play шутер от первого лица, завязанный на классах персонажей.
+                    Игра основана на красочном фэнтезийном сеттинге с участием чемпионов, играбельных персонажей, у которых есть своё уникальное оружие и навыки.</p>
+            </div>
+        </div>
+        <hr>
+        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="800"    class="feature">
+            <div class="feature_image margin">
+                <img src="img/овервотч.jpg " alt="">
+            </div>
+            <div class="feature_text margin">
+                <p>Overwatch — многопользовательская компьютерная игра в жанре шутера от первого лица, разработанная и выпущенная компанией Blizzard Entertainment в 2016 году для Windows, PlayStation 4 и Xbox One и в 2019 году для Nintendo Switch.</p>
+            </div>
+        </div>
+        <hr>
+        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="800"  class="feature">
+            <div class="feature_image margin">
+                <img src="радуга.webp" alt="">
+            </div>
+            <div class="feature_text margin">
+                <p>Tom Clancy’s Rainbow Six Осада) — тактический шутер от первого лица, разработанный Ubisoft для Windows, Xbox One и PlayStation 4. Игра была анонсирована Ubisoft 9 июня 2014 года на E3 и выпущена 1 декабря 2015 года, а ровно через пять лет, 1 декабря 2020 года, игра вышла для PlayStation 5 и Xbox Series X/S. Проект стал преемником закрытого Patriots. В геймплее сделан упор на разрушаемость окружающей обстановки и тактическое взаимодействие игроков.</p>
+            </div>
+        </div>
+        <hr>
+        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="800"    class="feature">
+            <div class="feature_image margin">
+                <img src="кс.jfif" alt="">
+            </div>
+            <div class="feature_text margin">
+                <p> игроки делятся на две команды: террористов и подразделений специального назначения, после чего сражаются друг с другом несколько раундов, по результатам которых определяется команда-победитель. Игроку доступны разные режимы игры, меняющие условия поединка между командами, а также игра с ботами.</p>
+            </div>
+        </div>
+        <hr>
+        <div id="scrollTop">
+            <img src="img/icons8-толстая-стрелка-вверх-64.png" alt="">
+        </div>
+        <script>
+            document.querySelector('#scrollTop').addEventListener('click', ()=> {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            })
+        </script>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="icons-container"></div>
+            <p>Copyright &copy; 2022 Кругляк Тимофей</p>
+            <a href=""><img src="icons8-vk-в-круге-48.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>

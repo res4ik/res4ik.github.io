@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Fira+Sans+Condensed:wght@400;500;700&family=Montserrat:wght@800&family=Neucha&family=Playfair+Display:wght@500&family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Neucha', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+:root {
+    --main-color:#094a5e;
+    --second-color:#8B63A6 ;
+}
+header {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color:var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > a {
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    color: white;
+    transition: 0.3s ease;
+}
+nav > a:hover {
+    background-color: #1e5d70;
+    border-bottom: 4px solid white;
+}
+.active  {
+    border-bottom: 4px solid white;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.header_img_container{
+    width: 50px;
+}
+main{
+    width: 90%;
+    margin: 2rem auto;
+}
+.hero {
+    display: flex;
+    align-items: center;
+}
+.hero-left, .hero-right{
+    flex: 50%;
+    width: 50%;
+
+}
+
+.hero-left > h1 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    padding-right: 1rem;
+}
+.quote {
+    width: 50%;
+    margin: 2rem auto;
+}
+.quote > h2 {
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+}
+.quote > h2::after {
+    content: "\201D";
+    font-size: 5rem;
+    position: absolute;
+    right: -40px;
+}
+.quote > h2::before {
+    content: "\201C";
+    font-size: 5rem;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+.video {
+    width: 100%;
+    margin-top: 4rem;
+}
+ video {
+    width: 100%;
+    margin: 5rem 0;
+}
+.column > img {
+    transition: 0.4s ease-in-out;
+}
+.column > img:hover {
+    transform: scale(1.14);
+}
+.deskription{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    text-align: center;
+}
+.deskription > h2 {
+    font-size: 2.5rem;
+    line-height: 151%;
+    font-weight: 700;
+}
+.deskription > h3 {
+    font-size: 1.2rem;
+    line-height: 151%;
+    font-weight: 500;
+    color: black;
+}
+    .deskription > p {
+        font-size: 1rem;
+        line-height: 151%;
+        margin-top: 0,4rem;
+        text-align: left;
+    }
+.feature {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem 0;
+    gap: 2rem;
+}
+.feature_image > img {
+    width: 256px;
+    height: 256px;
+    object-fit: fill;
+}
+.feature_img {
+    flex: 1;
+}
+.feature:nth-of-type(even) {
+    flex-direction: row;
+}
+#scrollTop {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+}
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0.5rem;
+    justify-content: center;
+    background-color: #1e5d70;
+    margin: 3rem auto;
+    gap: 0.5rem;
+}
+.form > input{
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 90%;
+    border: none;
+}
+.form > input:focus{
+    border:3px  solid #8B63A6 ; 
+    outline: none;
+} 
+.form > textarea {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    width: 90%;
+    resize: vertical;
+}
+.form > textarea:focus{
+    border:3px  solid #8B63A6 ; 
+    outline: none;
+} 
+.form > button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    width: 90%;
+}
+.margin{
+    margin-top: 2rem;
+}
+footer{
+    margin-top: 5rem;
+    padding: 2rem 3rem;
+    width: 100%;
+    background-color: var(--main-color);
+}
+.footer-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-container > h3 {
+    color: white;
+    font-size: 1.1rem;
+}
+.footer-container > p {
+    color: white;
+    font-size: 0.9rem;
+}
+.icons-container {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+}
+.icons-container > img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
